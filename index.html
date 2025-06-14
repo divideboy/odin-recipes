@@ -3,39 +3,55 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Main Menu</title>
   </head>
-  <body>
-    <h1>Odin project</h1>
-    <img src="./RecipesImages/restaurant.png" height="310" img="310" />
+  <body class="flex flex-col items-center gap-[4px]">
+    <h1 class="text-[48px] font-bold">HEHE HAHA project</h1>
+    <img src="./RecipesImages/restaurant.png" class="h-[310px] w-[310px]" />
     <h2>
       Here will show some food that was defintely not made up <em>wink wink</em>
     </h2>
-    <a href="recipes/ChickenRice.html" rel="noopener noreferrer"
-      >Chicken Rice</a
+    <a
+      href="recipes/ChickenRice.html"
+      rel="noopener noreferrer"
+      class="border-[2px] border-black p-[8px] rounded-[16px] w-[120px] text-center"
+    >
+      Chicken Rice</a
     >
     <br />
-    <a href="recipes/Pasta.html" rel="noopener noreferrer">Pasta</a>
+    <a
+      href="recipes/Pasta.html"
+      rel="noopener noreferrer"
+      class="border-[2px] border-black p-[8px] rounded-[16px] w-[120px] text-center"
+      >Pasta</a
+    >
     <br />
-    <a href="recipes/MeePok.html" rel="noopener noreferrer">Mee Pok</a>
+    <a
+      href="recipes/MeePok.html"
+      rel="noopener noreferrer"
+      class="border-[2px] border-black p-[8px] rounded-[16px] w-[120px] text-center"
+      >Mee Pok</a
+    >
 
-    <div>
+    <div class="flex flex-col item-center text-center">
       <div class="subsection header">Latest Posts</div>
       <p class="subsection" id="preview">
         This is where a preview for a post might go.
       </p>
     </div>
   </body>
+
   <style>
-    * {
+    /* * {
       outline: 2px solid red;
-    }
-    .subsection.header {
+    } */
+    /* .subsection.header {
       color: red;
     }
 
     .subsection#preview {
       color: blue;
-    }
+    } */
   </style>
 </html>
